@@ -24,10 +24,5 @@
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/m-thorsen/vscode-tango"
-	},
-	"__metadata": {
-		"id": "a45d65e7-7768-450e-a774-7b3b28271472",
-		"publisherDisplayName": "Martin Thorsen",
-		"publisherId": "18cf6731-092d-4166-a4cc-81af1bae057a"
 	}
 }

@@ -1,6 +1,6 @@
 {
     "$schema": "vscode://schemas/color-theme",
-    "name": "materia",
+    "name": "tango",
     "type": "dark",
     "include": "./tokens-dark.json",
     "colors": {

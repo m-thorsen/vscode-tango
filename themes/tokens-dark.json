@@ -92,7 +92,7 @@
         {
             "name": "Lightest gray",
             "settings": {
-                "foreground": "#EEEEEE"
+                "foreground": "#eeeeec"
             },
             "scope": [
                 "variable",
@@ -108,9 +108,18 @@
         {
             "name": "Light gray",
             "settings": {
-                "foreground": "#BDBDBD"
+                "foreground": "#babdb6"
             },
             "scope": [
+                "punctuation.definition.begin",
+                "punctuation.definition.end",
+                "meta.tag",
+                // "punctuation.definition.tag",
+                // "punctuation.separator.inheritance.php",
+                // "punctuation.definition.tag.html",
+                // "punctuation.definition.tag.begin.html",
+                // "punctuation.definition.tag.end.html",
+                "punctuation.section.embedded",
                 "meta.object-literal.key.js",
                 "source.css support.type.property-name",
                 "source.sass support.type.property-name",
@@ -124,7 +133,7 @@
         {
             "name": "Medium gray",
             "settings": {
-                "foreground": "#9E9E9E"
+                "foreground": "#888a85"
             },
             "scope": [
                 "support.type.vendored.property-name.css",
@@ -134,13 +143,13 @@
                 "markup.quote markup.italic string",
                 "markup.quote markup.bold",
                 "markup.quote markup.bold punctuation.definition.bold.markdown",
-                "markup.quote markup.bold string"
+                "markup.quote markup.bold string",
             ]
         },
         {
             "name": "Dark gray",
             "settings": {
-                "foreground": "#757575"
+                "foreground": "#6e706b"
             },
             "scope": [
                 "text.html.markdown markup.inline.raw.markdown punctuation.definition.raw.markdown",
@@ -148,33 +157,22 @@
                 "markup.quote punctuation.definition.blockquote.markdown",
                 "variable.language.fenced.markdown",
                 "meta.separator",
-                "punctuation.definition.block.tag.jsdoc",
-                "entity.name.type.instance.jsdoc",
                 "punctuation.definition.bracket",
-                "variable.other.jsdoc",
-                "storage.type.class.jsdoc",
-                "comment.block.documentation.phpdoc.php keyword.other.phpdoc.php",
-                "comment.block.documentation.phpdoc.php punctuation.separator.inheritance.php",
-                "comment.block.documentation.phpdoc.php support.other.namespace.php",
-                "comment.block.documentation.phpdoc.php support.class",
-                "comment.block.documentation.phpdoc.php keyword.other"
-            ]
-        },
-        {
-            "name": "Darkest gray",
-            "settings": {
-                "foreground": "#616161"
-            },
-            "scope": [
+                "punctuation.definition.comment",
                 "comment",
-                "meta.other.type.phpdoc.php punctuation",
-                "punctuation.definition.comment"
+                "comment.block.documentation.js punctuation.definition.block.tag.jsdoc",
+                "comment.block.documentation.js entity.name.type.instance.jsdoc",
+                "comment.block.documentation.js storage.type.class.jsdoc",
+                "comment.block.documentation.js variable.other.jsdoc",
+                "comment.block.documentation.phpdoc.php punctuation",
+                "comment.block.documentation.phpdoc.php support",
+                "comment.block.documentation.phpdoc.php keyword",
             ]
         },
         {
             "name": "Green",
             "settings": {
-                "foreground": "#AED581"
+                "foreground": "#8ae234"
             },
             "scope": [
                 "string",
@@ -190,20 +188,12 @@
             ]
         },
         {
-            "name": "Light cyan",
+            "name": "Cyan",
             "settings": {
-                "foreground": "#80DEEA"
+                "foreground": "#63e9e9"
             },
             "scope": [
                 "constant.other.color",
-                "punctuation",
-                "meta.tag",
-                "punctuation.definition.tag",
-                "punctuation.separator.inheritance.php",
-                "punctuation.definition.tag.html",
-                "punctuation.definition.tag.begin.html",
-                "punctuation.definition.tag.end.html",
-                "punctuation.section.embedded",
                 "keyword.other.template",
                 "keyword.other.substitution",
                 "meta.array.literal.js",
@@ -218,11 +208,13 @@
         {
             "name": "Purple",
             "settings": {
-                "foreground": "#CE93D8"
+                "foreground": "#ad7fa8"
             },
             "scope": [
                 "keyword",
                 "keyword.control",
+                "keyword.other",
+                "keyword.other.unit",
                 "keyword.other.phpdoc.php",
                 "keyword.other.function.use.php",
                 "storage.type",
@@ -239,7 +231,7 @@
         {
             "name": "Blue",
             "settings": {
-                "foreground": "#82B1FF"
+                "foreground": "#729fcf"
             },
             "scope": [
                 "entity.name.function",
@@ -259,7 +251,7 @@
         {
             "name": "Yellow",
             "settings": {
-                "foreground": "#FFCC80"
+                "foreground": "#e9b96e"
             },
             "scope": [
                 "constant.other.php",
@@ -282,7 +274,7 @@
         {
             "name": "Orange",
             "settings": {
-                "foreground": "#FF8A65"
+                "foreground": "#f57900"
             },
             "scope": [
                 "constant.numeric",
@@ -292,8 +284,6 @@
                 "constant.character",
                 "constant.escape",
                 "variable.parameter",
-                "keyword.other.unit",
-                "keyword.other",
                 "meta.function.parameters.php variable",
                 "meta.function.closure.use.php variable",
                 "markdown.heading",
@@ -303,9 +293,9 @@
             ]
         },
         {
-            "name": "Red",
+            "name": "Dark Orange",
             "settings": {
-                "foreground": "#E57373"
+                "foreground": "#ce5c00"
             },
             "scope": [
                 "entity.name.tag",
@@ -324,9 +314,9 @@
             ]
         },
         {
-            "name": "Pink",
+            "name": "Red",
             "settings": {
-                "foreground": "#FF4081"
+                "foreground": "#ef2929"
             },
             "scope": [
                 "invalid",

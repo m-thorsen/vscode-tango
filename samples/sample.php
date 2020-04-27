@@ -30,7 +30,7 @@ class AuthServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    protected function registerAuthenticator()
+    protected function registerAuthenticator(App $app)
     {
         $this->app->singleton('auth', function ($app) {
             // Once the authentication service has actually been requested by the developer

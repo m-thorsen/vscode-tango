@@ -1,4 +1,7 @@
 <template>
+    <!--
+    A comment
+    -->
   <div id="theTodoList">
     <BaseInputText
         v-model="newTodoText"

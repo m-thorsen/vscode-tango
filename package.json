@@ -1,12 +1,12 @@
 {
-	"name": "vscode-materia",
-	"displayName": "Materia",
-	"description": "A neutral material theme",
-	"version": "0.3.5",
+	"name": "vscode-tango",
+	"displayName": "Tango",
+	"description": "A VSCode theme",
+	"version": "0.0.1",
 	"publisher": "m-thorsen",
 	"license": "MIT",
 	"engines": {
-		"vscode": "^1.31.0"
+		"vscode": "^1.44.0"
 	},
 	"categories": [
 		"Themes"
@@ -15,20 +15,15 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Materia",
+				"label": "Tango Dark",
 				"uiTheme": "vs-dark",
-				"path": "./themes/materia.json"
-			},
-			{
-				"label": "Materia Contrast",
-				"uiTheme": "vs-dark",
-				"path": "./themes/materia-contrast.json"
-            }
+				"path": "./themes/tango-dark.json"
+			}
 		]
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/m-thorsen/vscode-materia"
+		"url": "https://github.com/m-thorsen/vscode-tango"
 	},
 	"__metadata": {
 		"id": "a45d65e7-7768-450e-a774-7b3b28271472",

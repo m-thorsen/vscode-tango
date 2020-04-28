@@ -41,7 +41,7 @@ class AuthServiceProvider extends ServiceProvider
             return new AuthManager($app);
         });
 
-        $this->app->singleton('auth.driver', function ($app) {
+        $this->app->singleton('auth.driver', function ($app) use ($this) {
             return $app['auth']->guard();
         });
     }

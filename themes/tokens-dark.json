@@ -159,10 +159,6 @@
             "name": "Variables",
 			"scope": [
                 "variable",
-				// "variable.css",
-				// "variable.scss",
-				// "variable.other.less",
-                "source.coffee.embedded",
 				"support.variable",
                 "support.function.git-rebase",
                 "support.type.property-name",
@@ -190,7 +186,7 @@
                 "constant.language",
 			],
 			"settings": {
-				"foreground": "#63e9e9",
+				"foreground": "#cc0000",
 			}
         },
 		{

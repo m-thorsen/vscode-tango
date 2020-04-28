@@ -13,14 +13,25 @@
         "statusBar.foreground": "#babdb6",
         "sideBar.foreground": "#babdb6",
         "editorLineNumber.foreground": "#555753",
-        "editorRuler.foreground": "#555753",
+        "editorRuler.foreground": "#2e3436",
+        "editor.selectionBackground": "#2e3436",
+
+        // Titlebar
+        "titleBar.activeBackground": "#282828",
+        "titleBar.inactiveBackground": "#202020",
 
         // Darkest
-        "activityBar.background": "#252526",
+        "editorGroupHeader.tabsBackground": "#181818",
+        "panel.background": "#181818",
+        "tab.inactiveBackground": "#181818",
+        "activityBar.background": "#181818",
+        "statusBar.background": "#181818",
+        "sideBar.background": "#181818",
+        "editor.background": "#101010",
+        "terminal.background": "#101010",
 
         // Hide/ignore
+        "panel.border": "#00000000",
         "sideBarSectionHeader.background": "#00000000",
-        "statusBar.background": "#00000000",
-        "tab.inactiveBackground": "#00000000",
     }
 }
